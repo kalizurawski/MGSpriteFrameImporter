@@ -16,7 +16,7 @@ func _get_importer_name() -> String:
 	return "MoxieGaming.SpriteFrameImporter"
 
 func _get_visible_name() -> String:
-	return "SpriteFrames"
+	return "MGSpriteFrames"
 	
 func _get_recognized_extensions() -> PackedStringArray:
 	return ["mg_json"]
@@ -25,7 +25,7 @@ func _get_save_extension() -> String:
 	return "tres"
 
 func _get_resource_type() -> String:
-	return "SpriteFrames"
+	return "MGSpriteFrames"
 
 func _get_dependencies(source_file: String, add_types: bool) -> PackedStringArray:
 	var deps := PackedStringArray()
